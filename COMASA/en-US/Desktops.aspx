@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Site.xsl"?>
 <?xml-stylesheet type="text/css" href="../RenderFail.css"?>
 <% @Page Language="C#" Debug="false" ResponseEncoding="utf-8" ContentType="text/xml" %>
@@ -13,73 +13,73 @@
     //
     // Customizable Text
     //
-    string L_CompanyName_Text = "Work Resources";
+    string L_CompanyName_Text = "COMASA RemoteApp";
 
     //
     // Localizable Text
     //
-    const string L_RemoteAppProgramsLabel_Text = "RemoteApp and Desktops";
-    const string L_DesktopTab_Text = "Connect to a remote PC";
-    const string L_SignOutTab_Text = "Sign out";
-    const string L_HelpTab_Text = "Help";
-    const string L_DesktopHeader_Text = "Remote Desktop Services Remote Desktop Web Connection";
-    const string L_DesktopDesc_Text = "Enter the name of the remote computer that you want to connect to, specify options, and then click Connect.";
-    const string L_Options_Text = "<u>O</u>ptions";
-    const string L_ConnectionOptionsHeader_Text = "Connection options";
-    const string L_RemoteDesktopSize_Text = "<u>R</u>emote desktop size:";
-    const string L_FullScreenLabel_Text = "Full screen";
+    const string L_RemoteAppProgramsLabel_Text = "RemoteApp e Áreas de Trabalho";
+    const string L_DesktopTab_Text = "Conectar a um PC remoto";
+    const string L_SignOutTab_Text = "Sair";
+    const string L_HelpTab_Text = "Ajuda";
+    const string L_DesktopHeader_Text = "Conexão Web de Área de Trabalho Remota";
+    const string L_DesktopDesc_Text = "Informe o nome do computador remoto, selecione as opções e clique em Conectar.";
+    const string L_Options_Text = "<u>O</u>pções";
+    const string L_ConnectionOptionsHeader_Text = "Opções de conexão";
+    const string L_RemoteDesktopSize_Text = "Tamanho da área de trabalho <u>r</u>emota:";
+    const string L_FullScreenLabel_Text = "Tela inteira";
     const string L_800x600Label_Text = "800 x 600 pixels";
     const string L_1024x768Label_Text = "1024 x 768 pixels";
     const string L_1280x1024Label_Text = "1280 x 1024 pixels";
     const string L_1600x1200Label_Text = "1600 x 1200 pixels";
-    const string L_ConnectLabel_Text = "Co<u>n</u>nect";
+    const string L_ConnectLabel_Text = "Co<u>n</u>ectar";
     const string L_MachineNameAccessKey_Text = "c";
-    const string L_MachineName_Text = "<u>C</u>onnect to:";
+    const string L_MachineName_Text = "<u>C</u>onectar a:";
     const string L_ResolutionAccessKey_Text = "r";
-    const string L_Resolution_Text="<u>R</u>emote desktop size:";
+    const string L_Resolution_Text="Tamanho da área de trabalho <u>r</u>emota:";
     const string L_OptionsAccessKey_Text = "o";
     const string L_ConnectAccessKey_Text = "n";
-    const string L_DevAndRes_Text = "Devices and resources";
-    const string L_DevAndResDesc_Text = "Select the devices and resources that you want to use in your remote session.";
-    const string L_PrinterLabel_Text = "Prin<u>t</u>ers";
-    const string L_ClipboardLabel_Text = "C<u>l</u>ipboard";
-    const string L_DrivesLabel_Text = "Dr<u>i</u>ves";
-    const string L_PNPLabel_Text = "Supported Plug and Pl<u>a</u>y devices";
-    const string L_SerialLabel_Text = "S<u>e</u>rial ports";
+    const string L_DevAndRes_Text = "Dispositivos e recursos";
+    const string L_DevAndResDesc_Text = "Selecione os dispositivos e recursos que deseja usar na sessão remota.";
+    const string L_PrinterLabel_Text = "Impressoras";
+    const string L_ClipboardLabel_Text = "Área de transferência";
+    const string L_DrivesLabel_Text = "Unidades";
+    const string L_PNPLabel_Text = "Dispositivos Plug and Play compatíveis";
+    const string L_SerialLabel_Text = "Portas seriais";
     const string L_PrinterRedirectionAccessKey_Text = "t";
     const string L_ClipboardAccessKey_Text = "l";
     const string L_DrivesAccessKey_Text = "i";
     const string L_PNPAccessKey_Text="a";
     const string L_SerialAccessKey_Text="e";
-    const string L_AdditionalOptions_Text = "Additional options";
-    const string L_SoundLabel_Text = "Remote computer <u>s</u>ound:";
-    const string L_SoundToComputerLabel_Text = "Bring to this computer";
-    const string L_SoundDisabledLabel_Text = "Do not play";
-    const string L_SoundAtServerLabel_Text = "Leave at remote computer";
-    const string L_KeyLabel_Text = "Apply <u>k</u>eyboard shortcuts:";
-    const string L_KeyAtServerLabel_Text = "On the remote computer";
-    const string L_KeyAtComputerLabel_Text = "On the local computer";
-    const string L_KeyAtServerFullScreenLabel_Text = "In Full screen mode only";
-    const string L_PerformanceLabel_Text = "<u>P</u>erformance:";
+    const string L_AdditionalOptions_Text = "Opções adicionais";
+    const string L_SoundLabel_Text = "<u>S</u>om do computador remoto:";
+    const string L_SoundToComputerLabel_Text = "Trazer para este computador";
+    const string L_SoundDisabledLabel_Text = "Não reproduzir";
+    const string L_SoundAtServerLabel_Text = "Deixar no computador remoto";
+    const string L_KeyLabel_Text = "Aplicar atalhos de teclado:";
+    const string L_KeyAtServerLabel_Text = "No computador remoto";
+    const string L_KeyAtComputerLabel_Text = "No computador local";
+    const string L_KeyAtServerFullScreenLabel_Text = "Somente em tela inteira";
+    const string L_PerformanceLabel_Text = "Desempenho:";
     const string L_ModemLabel_Text = "Modem (56 Kbps)";
-    const string L_LowSpeedBroadbandLabel_Text = "Low-speed broadband (256 Kbps - 2 Mbps)";
-    const string L_SatelliteLabel_Text = "Satellite (2 Mbps - 16 Mbps with high latency)";
-    const string L_HighSpeedBroadbandLabel_Text = "High-speed broadband (2 Mbps - 10 Mbps)";
-    const string L_WANLabel_Text = "WAN (10 Mbps or higher with high latency)";
-    const string L_LANLabel_Text = "LAN (10 Mbps or higher)";
-    const string L_AutoDetectBandWidth_Text = "Detect connection quality automatically";        
+    const string L_LowSpeedBroadbandLabel_Text = "Banda larga baixa velocidade (256 Kbps - 2 Mbps)";
+    const string L_SatelliteLabel_Text = "Satélite (2 Mbps - 16 Mbps com alta latência)";
+    const string L_HighSpeedBroadbandLabel_Text = "Banda larga alta velocidade (2 Mbps - 10 Mbps)";
+    const string L_WANLabel_Text = "WAN (10 Mbps ou mais com alta latência)";
+    const string L_LANLabel_Text = "LAN (10 Mbps ou mais)";
+    const string L_AutoDetectBandWidth_Text = "Detectar qualidade da conexão automaticamente";
     const string L_KeyboardAccessKey_Text = "k";
     const string L_PerformanceAccessKey_Text = "p";
     const string L_SoundAccessKey_Text = "s";
-    const string L_PrivateDesc_Text = "By selecting this option you can save your credentials so that they can be used in the future when connecting to these programs. Before you select this option, please ensure that saving your credentials is in compliance with your organization's security policy.";
-    const string L_HideInfoLabel_Text = "Hide additional information...";
-    const string L_MoreInfoLabel_Text = "More information...";
-    const string L_PrivateLabel_Text = "I am using a private computer that complies with my organization's security policy.";
-    const string L_InvalidMachineName_Text = "You must enter a remote computer name.";
-    const string L_RenderFailTitle_Text = "Error: Unable to display RD Web Access";
-    const string L_RenderFailP1_Text = "An unexpected error has occurred that is preventing this page from being displayed correctly.";
-    const string L_RenderFailP2_Text = "Viewing this page in Internet Explorer with the Enhanced Security Configuration enabled can cause such an error.";
-    const string L_RenderFailP3_Text = "Please try loading this page without the Enhanced Security Configuration enabled. If this error continues to be displayed, please contact your administrator.";
+    const string L_PrivateDesc_Text = "Ao selecionar esta opção, você poderá salvar suas credenciais para uso futuro. Confirme antes que isso está de acordo com a política de segurança da organização.";
+    const string L_HideInfoLabel_Text = "Ocultar informações adicionais...";
+    const string L_MoreInfoLabel_Text = "Mais informações...";
+    const string L_PrivateLabel_Text = "Estou usando um computador particular em conformidade com a política de segurança da organização.";
+    const string L_InvalidMachineName_Text = "Informe o nome do computador remoto.";
+    const string L_RenderFailTitle_Text = "Erro: não foi possível exibir o portal RemoteApp COMASA";
+    const string L_RenderFailP1_Text = "Ocorreu um erro inesperado que impede a exibição correta desta página.";
+    const string L_RenderFailP2_Text = "Exibir esta página no Internet Explorer com a Configuração de Segurança Reforçada habilitada pode causar esse erro.";
+    const string L_RenderFailP3_Text = "Tente carregar esta página sem a Configuração de Segurança Reforçada habilitada. Se o erro continuar, contate o administrador.";
 
     //
     // Page Variables
@@ -108,7 +108,7 @@
             Response.StatusCode = 404;
             Response.End();
         }
-        
+
         // gives us https://<hostname>[:port]/rdweb/pages/<lang>/
         baseUrl = new Uri(new Uri(RequestHelper.GetOriginalRequestUri(Request), RequestHelper.GetRequestFilePath(Request)), ".");
 
@@ -124,7 +124,7 @@
             {
                 Response.Redirect("login.aspx?ReturnUrl=desktops.aspx");
             }
-            TSFormAuthTicketInfo objTSFormAuthTicketInfo = new TSFormAuthTicketInfo(HttpContext.Current);            
+            TSFormAuthTicketInfo objTSFormAuthTicketInfo = new TSFormAuthTicketInfo(HttpContext.Current);
             bPrivateMode = objTSFormAuthTicketInfo.PrivateMode;
             strDomainUserName = objTSFormAuthTicketInfo.DomainUserName;
 
@@ -195,10 +195,10 @@
 
 </script>
 
-<RDWAPage 
-    helpurl="<%=sHelpSourceServer%>" 
-    domainuser="<%=SecurityElement.Escape(strDomainUserName)%>" 
-    workspacename="<%=AntiXssEncoder.XmlAttributeEncode(L_CompanyName_Text)%>" 
+<RDWAPage
+    helpurl="<%=sHelpSourceServer%>"
+    domainuser="<%=SecurityElement.Escape(strDomainUserName)%>"
+    workspacename="<%=AntiXssEncoder.XmlAttributeEncode(L_CompanyName_Text)%>"
     baseurl="<%=SecurityElement.Escape(baseUrl.AbsoluteUri)%>"
     >
     <RenderFailureMessage>
@@ -213,7 +213,7 @@
                 <p><%=L_RenderFailP2_Text%></p>
                 <p><%=L_RenderFailP3_Text%></p>
             </body>
-        </html> 
+        </html>
     </RenderFailureMessage>
     <HeaderJS>
         bFormAuthenticationMode = false;
@@ -238,8 +238,8 @@
         <table border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="30">&#160;</td>
-                       
-            
+
+
             <td>
 
                 <table border="0" cellpadding="0" cellspacing="0">
@@ -458,12 +458,12 @@
             <![CDATA[
                 var DefaultTSGateway = document.getElementById("DefaultTSGateway").innerHTML;
                 var GatewayCredentialsSource = document.getElementById("GatewayCredentialsSource").innerHTML;
-                
+
                 document.getElementById("MachineName").focus()
                 window.onerror = fnErrTrap;
                 var vbCritical = 16;
                 var vbInformation = 64;
-                var L_sTitle_Text = "Remote Desktop Connection";
+                var L_sTitle_Text = "Conexão de Área de Trabalho Remota";
 
                 function updateConnectButtonState( objMachineName )
                 {
@@ -543,7 +543,7 @@
                 function fnErrTrap(sMsg,sUrl,sLine)
                 {
                     var retval;
-                    var L_errMsg_Text = "To use this Web site, your computer must be running the Remote Desktop Connection (RDC) client. \n\nTo continue, install the latest RDC client and the most recent updates from the Microsoft Update Web site, and then try again.";
+                    var L_errMsg_Text = "Para usar este site, o computador deve executar o cliente Conexão de Área de Trabalho Remota (RDC). \n\nInstale o cliente RDC e as atualizações mais recentes e tente novamente.";
                     if (sMsg.indexOf('is undefined') != -1)
                     {
                         retval = TSMsgBox(L_errMsg_Text, vbInformation, L_sTitle_Text);
@@ -558,7 +558,7 @@
                     }
                     else
                     {
-                        var L_errMsg2_Text = "An application error was caught:\n\nError:%ErrorMessage%\nURL:%URL%\nLine:%ErrorLineNumber%" ; // {Placeholder="%ErrorMessage%","%URL%","%ErrorLineNumber%"}
+                        var L_errMsg2_Text = "Um erro de aplicativo foi detectado:\n\nErro:%ErrorMessage%\nURL:%URL%\nLinha:%ErrorLineNumber%" ; // {Placeholder="%ErrorMessage%","%URL%","%ErrorLineNumber%"}
                         var errMsg2 = L_errMsg2_Text
                         errMsg2 = errMsg2.replace("%ErrorMessage%",sMsg);
                         errMsg2 = errMsg2.replace("%ErrorNumber%",sURL);
@@ -602,7 +602,7 @@
 
                 function OnControlLoadError()
                 {
-                    var L_errMsgLoad_Text = "A problem was detected while loading the ActiveX Control.";
+                    var L_errMsgLoad_Text = "Foi detectado um problema ao carregar o controle ActiveX.";
                     var retval = TSMsgBox(L_errMsgLoad_Text, vbInformation, L_sTitle_Text);
                     return true;
                 }
@@ -676,7 +676,7 @@
             function setPerf()
             {
                 var iIndex;
-                
+
                 for (iIndex = 0; iIndex < objPerformanceOptions.length; iIndex++)
                 {
                     objPerformanceOptions[iIndex] = 0;
@@ -733,8 +733,8 @@
                     retval =  RDPstr2;
                 }
                 return retval;
-            }           
-            
+            }
+
             function flipBit (iVal)
             {
                 return (iVal == 1) ? 0:1;
@@ -831,7 +831,7 @@
                     {
                         if (e.number==-2147467259)
                         {
-                            var L_ErrMsgLaunch_Text = "The security settings of your browser are preventing this Remote Desktop Services website from launching the remote program. Please add this Remote Desktop Services website to the Trusted sites or Local intranet zone of your browser and try again.";
+                            var L_ErrMsgLaunch_Text = "As configurações de segurança do navegador impedem que este site inicie o programa remoto. Adicione-o aos Sites confiáveis ou à Intranet local e tente novamente.";
                             var retval = TSMsgBox(L_ErrMsgLaunch_Text, vbInformation, L_sTitle_Text);
                         }
                         else
@@ -869,7 +869,7 @@
                 {
                     if ((bReqd) && ((vDefault == "") || (vDefault == null) || (obj == null)))
                     {
-                        var L_ErrMsgInvalid_Text = "%ParameterName% is not a valid or available parameter name.";  // {Placeholder="%ParameterName%"}
+                        var L_ErrMsgInvalid_Text = "%ParameterName% não é um nome de parâmetro válido ou disponível.";  // {Placeholder="%ParameterName%"}
                         var errMsgInvalid = sParam;
                         errMsgInvalid = errMsgInvalid.replace("%ParameterName%", sParam);
                         var retval = TSMsgBox(errMsgInvalid, vbInformation, L_sTitle_Text);

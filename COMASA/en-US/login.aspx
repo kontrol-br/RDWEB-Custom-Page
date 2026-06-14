@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Site.xsl"?>
 <?xml-stylesheet type="text/css" href="../RenderFail.css"?>
 <% @Page Language="C#" Debug="false" ResponseEncoding="utf-8" ContentType="text/xml" Async="true" %>
@@ -13,44 +13,44 @@
     //
     // Customizable Text
     //
-    string L_CompanyName_Text = "Work Resources";
+    string L_CompanyName_Text = "COMASA RemoteApp";
 
     //
     // Localizable Text
     //
-    const string L_DomainUserNameLabel_Text = "Domain\\user name:";
-    const string L_PasswordLabel_Text = "Password:";
-    const string L_PasswordExpiredChangeBeginning_Text = "Your password is expired. Click ";
-    const string L_PasswordExpiredChangeLink_Text = "here";
-    const string L_PasswordExpiredChangeEnding_Text = " to change it.";
-    const string L_PasswordExpiredNoChange_Text = "Your password is expired. Please contact your administrator for assistance.";
-    const string L_ExistingWorkspaceLabel_Text = "Another user of your computer is currently using this connection.  This user must disconnect before you can log on.";
-    const string L_DisconnectedWorkspaceLabel_Text = "Another user of your computer has disconnected from this connection.  Please type your user name and password again.";
-    const string L_LogonFailureLabel_Text = "The user name or password that you entered is not valid. Try typing it again.";
-    const string L_DomainNameMissingLabel_Text = "You must enter a valid domain name.";
-    const string L_AuthorizationFailureLabel_Text = "You aren’t authorized to log on to this connection.  Contact your system administrator for authorization.";
-    const string L_ServerConfigChangedLabel_Text = "Your RD Web Access session expired due to configuration changes on the remote computer.  Please sign in again.";
-    const string L_SecurityLabel_Text = "Security";
-    const string L_ShowExplanationLabel_Text = "show explanation";
-    const string L_HideExplanationLabel_Text = "hide explanation";
-    const string L_PublicLabel_Text = "This is a public or shared computer";
-    const string L_PublicExplanationLabel_Text = "Select this option if you use RD Web Access on a public computer.  Be sure to log off when you have finished using RD Web Access and close all windows to end your session.";
-    const string L_PrivateLabel_Text = "This is a private computer";
-    const string L_PrivateExplanationLabel_Text = "Select this option if you are the only person who uses this computer.  Your server will allow a longer period of inactivity before logging you off.";
-    const string L_PrivateWarningLabel_Text = "Warning:  By selecting this option, you confirm that this computer complies with your organization's security policy.";
-    const string L_PrivateWarningLabelNoAx_Text = "Warning:  By logging in to this web page, you confirm that this computer complies with your organization's security policy.";
-    const string L_SignInLabel_Text = "Sign in";
-    const string L_TSWATimeoutLabel_Text = "To protect against unauthorized access, your RD Web Access session will automatically time out after a period of inactivity.  If your session ends, refresh your browser and sign in again.";
-    const string L_RenderFailTitle_Text = "Error: Unable to display RD Web Access";
-    const string L_RenderFailP1_Text = "An unexpected error has occurred that is preventing this page from being displayed correctly.";
-    const string L_RenderFailP2_Text = "Viewing this page in Internet Explorer with the Enhanced Security Configuration enabled can cause such an error.";
-    const string L_RenderFailP3_Text = "Please try loading this page without the Enhanced Security Configuration enabled. If this error continues to be displayed, please contact your administrator."; 
-    const string L_GenericClaimsAuthErrorLabel_Text = "We can't sign you in right now. Please try again later.";
-    const string L_WrongAxVersionWarningLabel_Text = "You don't have the right version of Remote Desktop Connection to use RD Web Access.";
-    const string L_UnsupportedBrowserWarningLabel_Text = "Your web browser isn't supported by Microsoft RemoteApp Service. Please use a supported browser.";
-    const string L_SupportedBrowserAxLoadErrorLabel_Text = "Your browser has ActiveX controls turned off. Go to your browser's settings to turn on ActiveX controls.";
-    const string L_ClaimsDomainUserNameLabel_Text = "Username@domain:";
-    const string L_CookiesDisabledWarningLabel_Text = "Your browser has cookies disabled. Go to your browser's settings to enable cookies.";
+    const string L_DomainUserNameLabel_Text = "Domínio\\nome de usuário:";
+    const string L_PasswordLabel_Text = "Senha:";
+    const string L_PasswordExpiredChangeBeginning_Text = "Sua senha expirou. Clique ";
+    const string L_PasswordExpiredChangeLink_Text = "aqui";
+    const string L_PasswordExpiredChangeEnding_Text = " para alterá-la.";
+    const string L_PasswordExpiredNoChange_Text = "Sua senha expirou. Contate o administrador.";
+    const string L_ExistingWorkspaceLabel_Text = "Outro usuário deste computador está usando esta conexão. Ele deve se desconectar antes que você possa entrar.";
+    const string L_DisconnectedWorkspaceLabel_Text = "Outro usuário deste computador se desconectou desta conexão. Digite usuário e senha novamente.";
+    const string L_LogonFailureLabel_Text = "O usuário ou senha informado não é válido. Tente novamente.";
+    const string L_DomainNameMissingLabel_Text = "Informe um domínio válido.";
+    const string L_AuthorizationFailureLabel_Text = "Você não está autorizado a acessar esta conexão. Contate o administrador.";
+    const string L_ServerConfigChangedLabel_Text = "Sua sessão expirou devido a alterações de configuração. Entre novamente.";
+    const string L_SecurityLabel_Text = "Segurança";
+    const string L_ShowExplanationLabel_Text = "mostrar explicação";
+    const string L_HideExplanationLabel_Text = "ocultar explicação";
+    const string L_PublicLabel_Text = "Este é um computador público ou compartilhado";
+    const string L_PublicExplanationLabel_Text = "Selecione esta opção ao usar um computador público. Ao terminar, saia do portal e feche todas as janelas.";
+    const string L_PrivateLabel_Text = "Este é um computador particular";
+    const string L_PrivateExplanationLabel_Text = "Selecione esta opção se apenas você usa este computador. O tempo de inatividade permitido será maior.";
+    const string L_PrivateWarningLabel_Text = "Aviso: ao selecionar esta opção, você confirma que o computador segue a política de segurança da organização.";
+    const string L_PrivateWarningLabelNoAx_Text = "Aviso: ao entrar nesta página, você confirma que o computador segue a política de segurança da organização.";
+    const string L_SignInLabel_Text = "Entrar";
+    const string L_TSWATimeoutLabel_Text = "Para proteger contra acesso não autorizado, sua sessão será encerrada automaticamente após um período de inatividade. Se isso ocorrer, atualize o navegador e entre novamente.";
+    const string L_RenderFailTitle_Text = "Erro: não foi possível exibir o portal RemoteApp COMASA";
+    const string L_RenderFailP1_Text = "Ocorreu um erro inesperado que impede a exibição correta desta página.";
+    const string L_RenderFailP2_Text = "Exibir esta página no Internet Explorer com a Configuração de Segurança Reforçada habilitada pode causar esse erro.";
+    const string L_RenderFailP3_Text = "Tente carregar esta página sem a Configuração de Segurança Reforçada habilitada. Se o erro continuar, contate o administrador.";
+    const string L_GenericClaimsAuthErrorLabel_Text = "Não foi possível entrar agora. Tente novamente mais tarde.";
+    const string L_WrongAxVersionWarningLabel_Text = "Você não possui a versão correta da Conexão de Área de Trabalho Remota para usar o portal.";
+    const string L_UnsupportedBrowserWarningLabel_Text = "Seu navegador não é compatível com o serviço RemoteApp. Use um navegador compatível.";
+    const string L_SupportedBrowserAxLoadErrorLabel_Text = "Os controles ActiveX estão desativados. Ative-os nas configurações do navegador.";
+    const string L_ClaimsDomainUserNameLabel_Text = "usuario@dominio:";
+    const string L_CookiesDisabledWarningLabel_Text = "Os cookies estão desativados. Habilite-os nas configurações do navegador.";
 
     //
     // Page Variables
@@ -96,7 +96,7 @@
         {
             sHelpSourceServer = "http://go.microsoft.com/fwlink/?LinkId=141038";
         }
-        
+
         try
         {
             strPrivateModeTimeout = ConfigurationManager.AppSettings["PrivateModeSessionTimeoutInMinutes"].ToString();
@@ -106,13 +106,13 @@
         {
         }
     }
-    
+
     protected void Page_Load(object sender, EventArgs e)
     {
         RegisterAsyncTask(new PageAsyncTask(LoginPageLoadAsync));
         ExecuteRegisteredAsyncTasks();
     }
-    
+
     private async Task LoginPageLoadAsync()
     {
         if ( Request.QueryString != null )
@@ -237,10 +237,10 @@
         {
             bFailedLogon = false;
         }
-        
+
         Response.Cache.SetCacheability(HttpCacheability.NoCache);
     }
-    
+
     private void SafeRedirect(string strRedirectUrl)
     {
         string strRedirectSafeUrl = null;
@@ -255,7 +255,7 @@
                 redirectUri.Scheme.Equals(baseUrl.Scheme)
                )
             {
-                strRedirectSafeUrl = redirectUri.AbsoluteUri;   
+                strRedirectSafeUrl = redirectUri.AbsoluteUri;
             }
 
         }
@@ -265,12 +265,12 @@
             strRedirectSafeUrl = "default.aspx";
         }
 
-        Response.Redirect(strRedirectSafeUrl);       
+        Response.Redirect(strRedirectSafeUrl);
     }
 </script>
-<RDWAPage 
-    helpurl="<%=sHelpSourceServer%>" 
-    workspacename="<%=AntiXssEncoder.XmlAttributeEncode(L_CompanyName_Text)%>" 
+<RDWAPage
+    helpurl="<%=sHelpSourceServer%>"
+    workspacename="<%=AntiXssEncoder.XmlAttributeEncode(L_CompanyName_Text)%>"
     baseurl="<%=SecurityElement.Escape(baseUrl.AbsoluteUri)%>"
     privacyurl="<%=AntiXssEncoder.XmlAttributeEncode(strPrivacyUrl)%>"
     >
@@ -286,13 +286,13 @@
             <p><%=L_RenderFailP2_Text%></p>
             <p><%=L_RenderFailP3_Text%></p>
         </body>
-    </html> 
+    </html>
   </RenderFailureMessage>
-  <BodyAttr 
-    onload="onLoginPageLoad(event)" 
+  <BodyAttr
+    onload="onLoginPageLoad(event)"
     onunload="onPageUnload(event)"/>
   <HTMLMainContent>
-  
+
       <form id="FrmLogin" name="FrmLogin" action="login.aspx<%=SecurityElement.Escape(strReturnUrl)%>" method="post" onsubmit="return onLoginFormSubmit()">
 
         <input type="hidden" name="WorkSpaceID" value="<%=SecurityElement.Escape(strWorkSpaceID)%>"/>
@@ -335,7 +335,7 @@
                 </tr>
                 </table>
             </td>
-            </tr> 
+            </tr>
 
             <tr id="trSupportedBrowserAxLoadError" style="display:none" >
             <td>
@@ -348,7 +348,7 @@
                 </tr>
                 </table>
             </td>
-            </tr> 
+            </tr>
 
             <tr id="trCookiesDisabled" style="display:none" >
             <td>
@@ -361,7 +361,7 @@
                 </tr>
                 </table>
             </td>
-            </tr> 
+            </tr>
 
             <tr>
                 <td height="50">&#160;</td>
@@ -426,7 +426,7 @@
                 </table>
             </td>
             </tr>
-               
+
     <%
     strErrorMessageRowStyle = "style=\"display:none\"";
     if ( bPasswordExpired == true)
@@ -518,7 +518,7 @@
                 </tr>
                 </table>
             </td>
-            </tr> 
+            </tr>
 
     <%
     strErrorMessageRowStyle = "style=\"display:none\"";
@@ -571,7 +571,7 @@
                 </tr>
                 </table>
             </td>
-            </tr> 
+            </tr>
 
             <tr>
             <td height="20">&#160;</td>
@@ -691,6 +691,6 @@
 
       </form>
 
-  
+
   </HTMLMainContent>
 </RDWAPage>
