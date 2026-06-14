@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <rdwastr:strings xmlns:rdwastr="urn:microsoft.com:rdwastrings">
-  <string id="PageTitle">RD Web Access</string>
+  <string id="PageTitle">Portal RemoteApp COMASA</string>
   <string id="NoScriptWarning">
-    <p id="NoScript1">RD Web Access requires JScript. This Web browser either does not support JScript, or scripts are being blocked.</p>
+    <p id="NoScript1">O Portal RemoteApp COMASA requer JScript. Este navegador não oferece suporte a JScript ou os scripts estão bloqueados.</p>
     <br/>
     <br/>
-    <p id="NoScript2">To find out whether your browser supports JScript, or to allow scripts, see the browser's online Help.</p>
+    <p id="NoScript2">Para verificar se o navegador oferece suporte a JScript ou para permitir scripts, consulte a ajuda online do navegador.</p>
   </string>
-  <string id="HeadingRDWA">RD Web Access</string>
-  <string id="HeadingApplicationName">RemoteApp and Desktop Connection</string>
-  <string id="Help">Help</string>
-  <string id="SignOut">Sign out</string>
-  <string id="SearchingForApps">Searching for available RemoteApp programs... </string>
-  <string id="CurrentFolder">Current folder: </string>
-  <string id="ParentFolder">Up</string>
-  <string id="OptimizeMyExperience">Optimize my experience for a LAN network when connecting to the computer or application.</string>
-  <string id="PrivateComputer">I am using a private computer that complies with my organization's security policy.</string>
-  <string id="MoreInformation">More information...</string>
-  <string id="PrivateMore">By selecting this option you can save your credentials so that they can be used in the future when connecting to these programs. Before you select this option, please ensure that saving your credentials is in compliance with your organization's security policy.</string>
-  <string id="HideMore">Hide additional information...</string>
-  <string id="PrivacyLink">Privacy</string>
+  <string id="HeadingRDWA">Portal RemoteApp COMASA</string>
+  <string id="HeadingApplicationName">Conexão RemoteApp e Área de Trabalho</string>
+  <string id="Help">Ajuda</string>
+  <string id="SignOut">Sair</string>
+  <string id="SearchingForApps">Pesquisando programas RemoteApp disponíveis... </string>
+  <string id="CurrentFolder">Pasta atual: </string>
+  <string id="ParentFolder">Subir</string>
+  <string id="OptimizeMyExperience">Otimizar minha experiência para rede LAN ao conectar ao computador ou aplicativo.</string>
+  <string id="PrivateComputer">Estou usando um computador particular em conformidade com a política de segurança da organização.</string>
+  <string id="MoreInformation">Mais informações...</string>
+  <string id="PrivateMore">Ao selecionar esta opção, você poderá salvar suas credenciais para uso futuro. Confirme antes que isso está de acordo com a política de segurança da organização.</string>
+  <string id="HideMore">Ocultar informações adicionais...</string>
+  <string id="PrivacyLink">Privacidade</string>
 </rdwastr:strings>
