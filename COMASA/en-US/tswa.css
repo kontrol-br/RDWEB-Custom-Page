@@ -282,3 +282,72 @@ td.cellSecondaryNavigationBar > table
     margin-left: 25px;
     margin-bottom: 10px;
 }
+
+/* COMASA visual identity customization */
+body {
+  background: linear-gradient(135deg, #001e50 0%, #004b93 48%, #f4f7fb 48%, #f4f7fb 100%);
+  background-attachment: fixed;
+}
+
+#content {
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 18px 40px rgba(0, 30, 80, 0.22);
+}
+
+.pageBorder {
+  border: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 30, 80, 0.28);
+}
+
+.headingCompanyName { color: #003b7a; font-weight: 700; }
+.headingApplicationName, .headingTSWA { color: #4f6276; }
+.headingForActivePageInNavigationBar { color: #0057a8; }
+.linkPrimaryNavigiationBar a, .linkSecondaryNavigiationBar a { color: #003b7a; }
+.linkPrimaryNavigiationBar a:hover, .linkSecondaryNavigiationBar a:hover { color: #0072ce; }
+
+.formButton {
+  background: #0057a8;
+  border: 1px solid #004b93;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 14px;
+}
+
+.textInputField {
+  background-color: #ffffff;
+  border: 1px solid #b9c7d8;
+  border-radius: 5px;
+  padding: 4px 6px;
+}
+
+td.cellMSLogo {
+  background: #ffffff url('https://cdn.dealerspace.ai/comasa/logo/Design%20sem%20nome%20-%202025-06-24T103537.954.webp') no-repeat right center;
+  background-size: contain;
+  min-width: 190px;
+  height: 64px;
+}
+
+td.cellMSLogo img,
+td.cellMSLogo object,
+td.cellMSLogo svg { opacity: 0; }
+
+body::after {
+  content: "COMASA - COMASA COMERCIAL MARILIENSE DE AUTOMOVEIS LTDA.";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 50px;
+  padding: 14px 24px 10px 150px;
+  background: #001e50 url('https://cdn.dealerspace.ai/comasa/logo/footer-comasa.png') no-repeat 24px center;
+  background-size: 105px auto;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: .2px;
+  box-shadow: 0 -8px 24px rgba(0,0,0,.18);
+  z-index: 9999;
+}

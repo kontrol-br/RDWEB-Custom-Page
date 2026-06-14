@@ -13,19 +13,19 @@
     //
     // Customizable Text
     //
-    string L_CompanyName_Text = "Work Resources";
+    string L_CompanyName_Text = "COMASA RemoteApp";
 
     //
     // Localizable Text
     //
-    const string L_RemoteAppProgramsLabel_Text = "RemoteApp and Desktops";
-    const string L_DesktopTab_Text = "Connect to a remote PC";
-    const string L_BadFolderErrorTitle_Text = "Folder does not exist. Redirecting...";
-    const string L_BadFolderErrorBody_Text = "You have attempted to load a folder that does not exist.  In a moment, you will be redirected to the top-level folder.";
-    const string L_RenderFailTitle_Text = "Error: Unable to display RD Web Access";
-    const string L_RenderFailP1_Text = "An unexpected error has occurred that is preventing this page from being displayed correctly.";
-    const string L_RenderFailP2_Text = "Viewing this page in Internet Explorer with the Enhanced Security Configuration enabled can cause such an error.";
-    const string L_RenderFailP3_Text = "Please try loading this page without the Enhanced Security Configuration enabled. If this error continues to be displayed, please contact your administrator.";
+    const string L_RemoteAppProgramsLabel_Text = "RemoteApp e Áreas de Trabalho";
+    const string L_DesktopTab_Text = "Conectar a um PC remoto";
+    const string L_BadFolderErrorTitle_Text = "A pasta não existe. Redirecionando...";
+    const string L_BadFolderErrorBody_Text = "Você tentou carregar uma pasta inexistente. Em instantes, será redirecionado para a pasta principal.";
+    const string L_RenderFailTitle_Text = "Erro: não foi possível exibir o portal RemoteApp COMASA";
+    const string L_RenderFailP1_Text = "Ocorreu um erro inesperado que impede a exibição correta desta página.";
+    const string L_RenderFailP2_Text = "Exibir esta página no Internet Explorer com a Configuração de Segurança Reforçada habilitada pode causar esse erro.";
+    const string L_RenderFailP3_Text = "Tente carregar esta página sem a Configuração de Segurança Reforçada habilitada. Se o erro continuar, contate o administrador.";
 
     //
     // Page Variables
